@@ -1,0 +1,170 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Signika'!important;
+    font-weight: 700!important;
+}
+@font-face {
+    font-family: Signika;
+	src:url(../../../fuentes/Signika-Bold.ttf);
+   }
+body {
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	/*    background: url(../../../imagenes/fondo_entrada.jpg) darkgray;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Open sans';
+	padding: 0 10% 0;
+	background-attachment: fixed;
+}
+
+.error_box {
+	background: #c40018;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	font-size: 12px;
+	line-height: 12px;
+	display: none;
+}
+
+.error_box.active {
+	display: block;
+}
+
+.correcto_box {
+	background: #3ead47;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	font-size: 12px;
+	line-height: 12px;
+	display: none;
+}
+
+.correcto_box.active {
+	display: block;
+}
+
+.boton {
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #3ead47;
+	padding: 10px 15px;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 70%;
+}
+
+#labl {
+	display: none;
+}
+
+.loginbox {
+	width: 30%;
+	height: auto;
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 3% 3%;
+	box-shadow: 0px 3px 38px 0px rgba(62, 173, 71, 1);
+}
+
+.loginbox input[type="text"],
+select#tipovehiculo {
+	text-transform: uppercase;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: green;
+	font-size: 16px;
+	margin-bottom: 20%;
+}
+
+.loginbox p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.loginbox input[type="submit"] {
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #3ead47;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+.loginbox input[type="button"] {
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #c40018;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	width: 100px;
+    float: left;
+}
+
+.loginbox input,
+select {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+span {
+	color: green;
+}
+
+.loginbox input[type="submit"]:hover {
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #3ead47;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+
+}
+
+.loginbox input[type="button"]:hover {
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #c40018;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.iframe {
+	display: none;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	height: 630px;
+}
